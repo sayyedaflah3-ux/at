@@ -1,10 +1,10 @@
-# AggroBark-Dataset-Generator
+# Canine-Dog-Repellent
 
-Generate a 1,000-clip synthetic dataset of aggressive dog barking using the ElevenLabs Sound Effects API.
+Audio dataset generator for a canine dog repellent system: creates 1,000 synthetic aggressive dog bark clips using the ElevenLabs Sound Effects API.
 
 ## Description
 
-AggroBark-Dataset-Generator is a Python script that builds a labeled audio dataset of aggressive dog barks. It creates 1,000 unique text prompts from a grid of breed, intensity, distance, environment, and dog count, sends each one to the ElevenLabs Sound Effects API, and saves the audio along with a metadata file recording the prompt used for every clip.
+Canine Dog Repellent is a Python project that builds the audio dataset needed to detect and respond to aggressive dog barking (for example, in a dog repellent or deterrent system). The script builds a labeled dataset of aggressive dog barks. It creates 1,000 unique text prompts from a grid of breed, intensity, distance, environment, and dog count, sends each one to the ElevenLabs Sound Effects API, and saves the audio along with a metadata file recording the prompt used for every clip.
 
 Useful for:
 - Training or testing dog-bark / aggressive-bark classifiers
@@ -30,8 +30,8 @@ Useful for:
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/AggroBark-Dataset-Generator.git
-cd AggroBark-Dataset-Generator
+git clone https://github.com/<your-username>/Canine-Dog-Repellent.git
+cd Canine-Dog-Repellent
 pip install requests
 ```
 
